@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 # Set page config
 st.set_page_config(page_title="Adidas Dashboard", layout="wide")
-st.markdown('<style>div.block-container{padding-top:1rem}</style>', unsafe_allow_html=True)
+st.markdown('<style>div.block-container{padding-top:10 rem}</style>', unsafe_allow_html=True)
 
 # Load Excel file
 try:
