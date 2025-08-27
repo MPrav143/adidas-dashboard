@@ -12,7 +12,7 @@ st.markdown('<style>div.block-container{padding-top:10 rem}</style>', unsafe_all
 # Load Excel file
 try:
     df = pd.read_excel("Adidas.xlsx")
-    st.write("Excel file loaded successfully!")
+    st.success("Excel file loaded successfully!")
 except Exception as e:
     st.error(f"Error loading Excel file: {e}")
     st.stop()  # stop if data doesn't load
